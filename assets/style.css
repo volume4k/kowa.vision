@@ -68,6 +68,11 @@ a {
     font-size: 24px;
 }
 
+.about {
+    margin: 10%;
+    align-content: center;
+}
+
 #chkToggle {
     display: none;
 }
