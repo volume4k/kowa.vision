@@ -5,7 +5,7 @@
     <title>KOWA</title>
     <link type="text/css" rel="stylesheet" href="assets/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         .wrapper > div {
             background: #eee;
@@ -15,7 +15,7 @@
         }
     </style>
 </head>
-<body>
+<body class="my-color-main">
 <nav class="navbar">
     <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
         <i class="fas fa-asterisk"></i>
@@ -40,16 +40,25 @@
         </li>
     </ul>
 </nav>
-<section class="about">
-    <div class="wrapper">
-        <div>
-            Sarah
-        </div>
-        <div>
-            Jonathan
+<section class="about my-color-main">
+    <div class="container">
+        <div class="row">
+            <div class="col my-color-text">
+                Profile Picture of me :)
+            </div>
+            <div class="col my-color-text">
+                Some Friendly welcome text :))
+            </div>
         </div>
     </div>
 </section>
+
+<footer class="page-footer font-small my-color-accent pt-4">
+    <div class="footer-copyright text-center my-color-text py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/"> Kowa Gruppe Holding UG (haftungsbeschränkt) (in Gründung)</a>
+    </div>
+</footer>
+
 <script src="assets/darkmode.js"></script>
 </body>
 </html>
