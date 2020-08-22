@@ -1,0 +1,11 @@
+body {
+    overflow-x: hidden;
+}
+
+div.body {
+    padding: 24px 10vw;
+}
+
+h1.title {
+    font-family:'Ubuntu Mono', monospace;
+}
