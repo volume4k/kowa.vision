@@ -59,9 +59,19 @@ li.r {
 p.footer {
     color: rgb(19, 15, 64);
     display: inline;
+    transition: .3s;
+}
+
+p.footer:hover {
+    color: rgb(249, 202, 36);
 }
 
 a.footer {
     color: rgb(19, 15, 64);
     text-decoration: none;
+    transition: .3s;
+}
+
+a.footer:hover {
+    color: rgb(186, 220, 88);
 }
