@@ -1,11 +1,55 @@
 body {
     overflow-x: hidden;
-}
-
-div.body {
-    padding: 24px 10vw;
+    padding: 24px 10vw 48px 10vw;
 }
 
 h1.title {
     font-family:'Ubuntu Mono', monospace;
+}
+
+span.green {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+/*-----FOOTER-----*/
+footer {
+    position: absolute;
+    width: 80%;
+    left: 0 ; right: 0; bottom: 0;
+    height: 48px;
+    /*justify-content: center;*/
+    font-family: 'Inter', 'sans-serif';
+    font-size: 14px;
+    padding: 0 10%;
+}
+
+div.footer {
+    margin-top: 14px;
+}
+
+ul.footer {
+    list-style: none;
+    display: inline;
+    padding: 0;
+}
+
+li.footer {
+    display: inline;
+}
+
+li.r {
+    float: right;
+    margin-left: 24px;
+}
+
+p.footer {
+    color: rgb(83, 92, 104);
+    display: inline;
+}
+
+a.footer {
+    color: rgb(83, 92, 104);
+    text-decoration: none;
 }
