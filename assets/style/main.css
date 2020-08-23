@@ -1,6 +1,10 @@
+/*-----BACKGROUND-ANIMATION-----*/
 body {
     overflow-x: hidden;
     padding: 24px 10vw 48px 10vw;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1.title {
@@ -9,6 +13,13 @@ h1.title {
 
 span.green {
     font-family: 'Permanent Marker', cursive;
+    color: rgb(106, 176, 76);
+    margin-left: 3px;
+}
+
+span.green-2 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(186, 220, 88);
 }
 
 
@@ -23,10 +34,11 @@ footer {
     font-family: 'Inter', 'sans-serif';
     font-size: 14px;
     padding: 0 10%;
+    background: rgba(255,255,255,.1);
 }
 
 div.footer {
-    margin-top: 14px;
+    margin-top: 15px;
 }
 
 ul.footer {
@@ -45,11 +57,11 @@ li.r {
 }
 
 p.footer {
-    color: rgb(83, 92, 104);
+    color: rgb(19, 15, 64);
     display: inline;
 }
 
 a.footer {
-    color: rgb(83, 92, 104);
+    color: rgb(19, 15, 64);
     text-decoration: none;
 }
