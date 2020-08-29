@@ -1,4 +1,6 @@
 /*-----BACKGROUND-ANIMATION-----*/
+
+
 body {
     overflow-x: hidden;
     padding: 24px 10vw 48px 10vw;
@@ -74,4 +76,49 @@ a.footer {
 
 a.footer:hover {
     color: rgb(186, 220, 88);
+}
+
+
+/*-----CONTENT-----*/
+div.content {
+    float: right;
+    text-align: right;
+    font-family: 'Inter', 'sans-serif';
+    display: grid;
+}
+
+h1.caption {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+p.description {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a.description {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.button {
+    margin-top: 24px;
+}
+
+a.button {
+    background: rgba(0,0,0,.5);
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px 24px;
+    margin-top: 14px;
+    text-decoration: none;
+    border: 0 solid black;
+    border-radius: 22px;
+    transition: .4s;
+}
+
+a.button:hover {
+    background: rgba(0,0,0,.8);
 }
