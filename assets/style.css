@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #12c2e9;
+  background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  height: 100%;
+  width: 100%;
+  padding: 0 10vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+div.body {
+  width: 100%;
+  min-height: 80vh;
+  max-width: 1560px;
+  display: flex;
+  flex-direction: column;
+  margin: 48px auto;
+}
+div.body div.nav h1 {
+  font-family: "Ubuntu", monospace;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 64px;
+  letter-spacing: 0.32px;
+}
+div.body div.nav h1 span {
+  font-family: "Permanent Marker", cursive;
+}
+div.body div.nav h1 span.a {
+  margin-left: 3px;
+  color: #358600;
+}
+div.body div.nav h1 span.b {
+  color: #63C132;
+}
+div.body div.content {
+  color: #0B0A07;
+  text-align: right;
+  margin: auto 0;
+}
+div.body div.content h1 {
+  font-size: 64px;
+  letter-spacing: 1px;
+}
+div.body div.content p {
+  margin-top: 32px;
+  font-size: 18px;
+  line-height: 30px;
+}
+div.body div.content a {
+  text-decoration: overline;
+  color: inherit;
+  transition: 0.3s;
+}
+div.body div.content a:hover {
+  cursor: crosshair;
+  color: #FDFD96;
+}
+div.body div.content a.button {
+  text-decoration: none;
+  color: #FDFFF7;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-weight: 200;
+  border: 0;
+  border-radius: 22px;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  width: 80vw;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  padding: 24px 48px;
+  border-radius: 22px 22px 0 0;
+  position: fixed;
+  bottom: 0;
+}
+footer ul {
+  max-width: 1560px;
+  width: 80vw;
+  margin: 0 auto;
+  list-style: none;
+  display: inline;
+}
+footer ul li {
+  display: inline;
+  font-size: 14px;
+  color: #0B0A07;
+}
+footer ul li p {
+  display: inline;
+  transition: 0.3s;
+}
+footer ul li p:hover {
+  cursor: crosshair;
+  color: #FFD300;
+}
+footer ul li a {
+  color: #0B0A07;
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer ul li a:hover {
+  color: #FDFD96;
+}
+footer ul li.r {
+  float: right;
+  margin-left: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */

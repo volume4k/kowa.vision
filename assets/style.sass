@@ -1,0 +1,103 @@
+@import "variables"
+*
+  overflow-x: hidden
+  margin: 0
+  padding: 0
+  text-rendering: optimizeLegibility
+  font-family: $inter
+body
+  background: #12c2e9
+  background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9)
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9)
+  height: 100%
+  width: 100%
+  padding: 0 10vw
+  box-sizing: border-box
+  display: flex
+  flex-direction: column
+div.body
+  width: 100%
+  min-height: 80vh
+  max-width: 1560px
+  display: flex
+  flex-direction: column
+  margin: 48px auto
+  div.nav
+    h1
+      font-family: 'Ubuntu', monospace
+      font-weight: 900
+      font-size: 36px
+      line-height: 64px
+      letter-spacing: .32px
+      span
+        font-family: 'Permanent Marker', cursive
+      span.a
+        margin-left: 3px
+        color:  $dark_green
+      span.b
+        color: $green
+  div.content
+    color: $black
+    text-align: right
+    margin: auto 0
+
+    h1
+      font-size: 64px
+      letter-spacing: 1px
+    p
+      margin-top: 32px
+      font-size: 18px
+      line-height: 30px
+    a
+      text-decoration: overline
+      color: inherit
+      transition: .3s
+      &:hover
+        cursor: crosshair
+        color: $yellow
+    a.button
+      text-decoration: none
+      color: $white
+      background: rgba(0,0,0,.5)
+      font-size: 18px
+      font-weight: 200
+      border: 0
+      border-radius: 22px
+      box-sizing: border-box
+      padding: 10px 10px
+      margin-bottom: 20px
+footer
+  display: flex
+  width: 80vw
+  flex-direction: row
+  background: rgba(255,255,255,.1)
+  box-sizing: border-box
+  padding: 24px 48px
+  border-radius: 22px 22px 0 0
+  position: fixed
+  bottom: 0
+  ul
+    max-width: 1560px
+    width: 80vw
+    margin: 0 auto
+    list-style: none
+    display: inline
+    li
+      display: inline
+      font-size: 14px
+      color: $black
+      p
+        display: inline
+        transition: .3s
+        &:hover
+          cursor: crosshair
+          color: $strong_yellow
+      a
+        color: $black
+        text-decoration: none
+        transition: .3s
+        &:hover
+          color: $yellow
+      &.r
+        float: right
+        margin-left: 32px
