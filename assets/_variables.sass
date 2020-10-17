@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap')
+
+$inter: 'Inter', sans-serif
+
+$black: #0B0A07
+$dark_green: #358600
+$green: #63C132
+$white: #FDFFF7
+$yellow: #FDFD96
+$strong_yellow: #FFD300
+
+// MEDIA QUERIES
+=respond-to($name)
+
+  @if $name == mobile
+    @media only screen and (max-width: 812px)
+      @content
+
+  @if $name == tablet
+    @media only screen and (max-width: 1367px) and (min-width: 813px)
+      @content
+
+  @if $name == desktop
+    @media only screen and (min-width: 1368px)
+      @content
