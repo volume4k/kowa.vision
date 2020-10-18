@@ -81,6 +81,13 @@ div.body div.content p {
   font-size: 18px;
   line-height: 30px;
 }
+@media only screen and (max-width: 812px) {
+  div.body div.content p {
+    margin-top: 26px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
 div.body div.content a {
   text-decoration: overline;
   color: inherit;
