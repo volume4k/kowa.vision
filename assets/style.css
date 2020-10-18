@@ -20,6 +20,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media only screen and (max-width: 812px) {
+  body {
+    padding: 0 5vw;
+  }
+}
 
 div.body {
   width: 100%;
@@ -28,6 +33,11 @@ div.body {
   display: flex;
   flex-direction: column;
   margin: 48px auto;
+}
+@media only screen and (max-width: 812px) {
+  div.body {
+    margin: 24px auto;
+  }
 }
 div.body div.nav h1 {
   font-family: "Ubuntu", monospace;
@@ -51,9 +61,20 @@ div.body div.content {
   text-align: right;
   margin: auto 0;
 }
+@media only screen and (max-width: 812px) {
+  div.body div.content {
+    margin: 24px 0 0 0;
+  }
+}
 div.body div.content h1 {
   font-size: 64px;
   letter-spacing: 1px;
+}
+@media only screen and (max-width: 812px) {
+  div.body div.content h1 {
+    font-size: 48px;
+    letter-spacing: 0.34px;
+  }
 }
 div.body div.content p {
   margin-top: 32px;

@@ -15,6 +15,8 @@ body
   box-sizing: border-box
   display: flex
   flex-direction: column
+  +respond-to(mobile)
+    padding: 0 5vw
 div.body
   width: 100%
   min-height: 80vh
@@ -22,6 +24,8 @@ div.body
   display: flex
   flex-direction: column
   margin: 48px auto
+  +respond-to(mobile)
+    margin: 24px auto
   div.nav
     h1
       font-family: 'Ubuntu', monospace
@@ -40,10 +44,14 @@ div.body
     color: $black
     text-align: right
     margin: auto 0
-
+    +respond-to(mobile)
+      margin: 24px 0 0 0
     h1
       font-size: 64px
       letter-spacing: 1px
+      +respond-to(mobile)
+        font-size: 48px
+        letter-spacing: 0.34px
     p
       margin-top: 32px
       font-size: 18px
