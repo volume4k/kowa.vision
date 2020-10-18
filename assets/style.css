@@ -121,6 +121,15 @@ footer {
   position: fixed;
   bottom: 0;
 }
+@media only screen and (max-width: 812px) {
+  footer {
+    position: relative;
+    bottom: unset;
+    width: 100%;
+    padding: 16px 24px;
+    margin: 24px 0 0;
+  }
+}
 footer ul {
   max-width: 1560px;
   width: 80vw;
@@ -128,14 +137,31 @@ footer ul {
   list-style: none;
   display: inline;
 }
+@media only screen and (max-width: 812px) {
+  footer ul {
+    display: unset;
+    width: 100%;
+  }
+}
 footer ul li {
   display: inline;
   font-size: 14px;
   color: #0B0A07;
 }
+@media only screen and (max-width: 812px) {
+  footer ul li {
+    display: block;
+  }
+}
 footer ul li p {
   display: inline;
   transition: 0.3s;
+}
+@media only screen and (max-width: 812px) {
+  footer ul li p {
+    display: block;
+    line-height: 18px;
+  }
 }
 footer ul li p:hover {
   cursor: crosshair;
@@ -152,6 +178,13 @@ footer ul li a:hover {
 footer ul li.r {
   float: right;
   margin-left: 32px;
+}
+@media only screen and (max-width: 812px) {
+  footer ul li.r {
+    display: inline-block;
+    float: unset;
+    margin: 10px 12px 0 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
