@@ -20,6 +20,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media only screen and (max-width: 812px) {
+  body {
+    padding: 0 5vw;
+  }
+}
 
 div.body {
   width: 100%;
@@ -28,6 +33,11 @@ div.body {
   display: flex;
   flex-direction: column;
   margin: 48px auto;
+}
+@media only screen and (max-width: 812px) {
+  div.body {
+    margin: 24px auto;
+  }
 }
 div.body div.nav h1 {
   font-family: "Ubuntu", monospace;
@@ -51,14 +61,32 @@ div.body div.content {
   text-align: right;
   margin: auto 0;
 }
+@media only screen and (max-width: 812px) {
+  div.body div.content {
+    margin: 24px 0 0 0;
+  }
+}
 div.body div.content h1 {
   font-size: 64px;
   letter-spacing: 1px;
+}
+@media only screen and (max-width: 812px) {
+  div.body div.content h1 {
+    font-size: 48px;
+    letter-spacing: 0.34px;
+  }
 }
 div.body div.content p {
   margin-top: 32px;
   font-size: 18px;
   line-height: 30px;
+}
+@media only screen and (max-width: 812px) {
+  div.body div.content p {
+    margin-top: 26px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 div.body div.content a {
   text-decoration: overline;
@@ -93,6 +121,15 @@ footer {
   position: fixed;
   bottom: 0;
 }
+@media only screen and (max-width: 812px) {
+  footer {
+    position: relative;
+    bottom: unset;
+    width: 100%;
+    padding: 16px 24px;
+    margin: 24px 0 0;
+  }
+}
 footer ul {
   max-width: 1560px;
   width: 80vw;
@@ -100,14 +137,31 @@ footer ul {
   list-style: none;
   display: inline;
 }
+@media only screen and (max-width: 812px) {
+  footer ul {
+    display: unset;
+    width: 100%;
+  }
+}
 footer ul li {
   display: inline;
   font-size: 14px;
   color: #0B0A07;
 }
+@media only screen and (max-width: 812px) {
+  footer ul li {
+    display: block;
+  }
+}
 footer ul li p {
   display: inline;
   transition: 0.3s;
+}
+@media only screen and (max-width: 812px) {
+  footer ul li p {
+    display: block;
+    line-height: 18px;
+  }
 }
 footer ul li p:hover {
   cursor: crosshair;
@@ -124,6 +178,13 @@ footer ul li a:hover {
 footer ul li.r {
   float: right;
   margin-left: 32px;
+}
+@media only screen and (max-width: 812px) {
+  footer ul li.r {
+    display: inline-block;
+    float: unset;
+    margin: 10px 12px 0 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
